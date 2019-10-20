@@ -15,7 +15,7 @@
   },
    "content_scripts":[
    { 
-      "matches":["http://diaryofagameaddict.com/","http://espdesign.com.au/"],
+      "matches":["http://diaryofagameaddict.com/","http://espdesign.com.au/","http://iamagameaddict.com/"],
       "js":["context.js"]
    
     }
