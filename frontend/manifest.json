@@ -1,0 +1,24 @@
+{
+  "manifest_version":2,
+  "name": "ThreatHunter", 
+  "version":"1.0",
+  "description": "it is hello world exe",
+  "icons":
+  {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  },
+  "browser_action":{
+    "default_icon":"icon16.png",
+    "default_popup": "popup.html"
+  },
+   "content_scripts":[
+   { 
+      "matches":["http://diaryofagameaddict.com/","http://espdesign.com.au/"],
+      "js":["context.js"]
+   
+    }
+ ]   
+
+}
